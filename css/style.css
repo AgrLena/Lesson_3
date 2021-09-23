@@ -1,0 +1,97 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+main{
+	color: grey;
+}
+nav .list{
+	color: palevioletred;
+}
+li.red  {
+	color: red;
+}
+p >.blue, li .blue{
+	color: blue
+}
+.yellow {
+	color: yellow;
+}
+.blue {
+	color: blue;
+}
+p.purple, span.purple{
+	color: purple;
+}
+#r1{
+	color: red;
+}
+#b1{
+	color: blue;
+}
+ul.list span{
+	color: purple;
+}
+ul.mix>li>span{
+	color: blue;
+}
+ul.mix>li>span.mix{
+	color: yellow;
+}
+ul.mix>li>span.mix+span{
+	color: green;
+}
+.midle~ul{
+	color: rgb(255, 102, 0);
+}
+.blue li{
+	color: chartreuse;
+}
+ul.blue>span{
+	color: rgb(126, 46, 231);
+}
+.blue li>p{
+	color: aquamarine;
+}
+ul.brown{
+	color: brown;
+}
+p .blue, .print{
+	color: darkolivegreen;
+}
+.print>p {
+	color: salmon;
+}
+div.print li>span{
+	color: cyan;
+}
+div.print ul{
+	color:magenta
+}
+
+
